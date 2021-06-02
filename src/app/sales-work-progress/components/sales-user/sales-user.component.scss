@@ -1,0 +1,48 @@
+
+
+.user-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.normal {
+  background-color: #309730;
+}
+
+.warning {
+  background-color: #abab2b;
+  color: black;
+}
+
+.critical {
+  background-color: #ad1818;
+  color:#ffffff;
+}
+
+.container-normal{
+  padding: 5px !important;
+  background-color:#709b78 !important;
+  color:#ffffff;
+}
+
+.container-warning{
+  padding: 5px !important;
+  background-color:#ddddbf !important;
+}
+.container-critical{
+  padding: 5px !important;
+  background-color:#e8a6ae !important;
+  color: #ffffff;
+}
+
+.mat-dialog-title{
+  padding: 5px;
+  margin:0;
+}
+
+.mat-dialog-content{
+  margin:0;
+}
+
+
+

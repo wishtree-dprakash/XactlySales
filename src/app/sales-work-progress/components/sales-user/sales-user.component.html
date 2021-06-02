@@ -1,1 +1,23 @@
-<p>sales-user works!</p>
+
+
+
+<div mat-dialog-title  [class.critical]="user.status === 'critical'" [class.warning]="user.status === 'warning'" [class.normal]="user.status === 'normal'">
+  <h2 mat-dialog-title>User Details</h2>
+</div>
+<mat-dialog-content  [class.container-critical]="user.status === 'critical'" [class.container-warning]="user.status === 'warning'" [class.container-normal]="user.status === 'normal'"class="mat-typography">
+      <p>
+        Name: {{user.name}}
+      </p>
+      <p>Employee ID : {{user.empID}}</p>
+      <p>
+        Progress: 80%
+      </p>
+      <p>State: {{user.state}}</p>
+      <p>
+        Position: {{user.position}}
+      </p>
+      <p>State: {{user.state}}</p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>OK</button>
+</mat-dialog-actions>
